@@ -1,0 +1,15 @@
+{
+  "name": "@claude-os/root",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "ClaudeOS — AI-powered personal workstation for investment research and software development",
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "install:all": "pnpm install"
+  },
+  "devDependencies": {}
+}

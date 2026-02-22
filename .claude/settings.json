@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(*)",
+      "Write(knowledge-base/context/**)",
+      "Write(knowledge-base/meta/**)",
+      "Write(.claude/commands/**)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git status)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git push *)",
+      "Bash(git fetch *)",
+      "Bash(git pull *)",
+      "Bash(pnpm *)",
+      "Bash(find knowledge-base *)",
+      "Bash(wc *)"
+    ],
+    "deny": []
+  }
+}

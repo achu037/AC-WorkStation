@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@anthropic/mcp-server-filesystem",
+        "/home/user/AC-WorkStation"
+      ],
+      "description": "Extended filesystem access scoped to the repo root. Update the path above if you clone this repo elsewhere."
+    },
+    "github": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@anthropic/mcp-server-github"
+      ],
+      "env": {
+        "GITHUB_TOKEN": "${GITHUB_TOKEN}"
+      },
+      "description": "GitHub integration for PRs, issues, and code review. Requires GITHUB_TOKEN in .env."
+    },
+    "fetch": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@anthropic/mcp-server-fetch"
+      ],
+      "description": "Fetch web content — financial reports, documentation, articles."
+    }
+  }
+}

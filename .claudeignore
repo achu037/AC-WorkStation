@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Obsidian internal config — user-specific, not relevant to Claude
+.obsidian/
+
+# Lock files — verbose, not useful as context
+*.lock
+pnpm-lock.yaml
+package-lock.json
+
+# Git internals
+.git/
+
+# Build output
+dist/
+.turbo/
+
+# Binary and media files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+*.zip
